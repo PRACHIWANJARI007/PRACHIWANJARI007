@@ -47,19 +47,25 @@ flipkart-data-analytics/
 ├── notebooks/               # Jupyter notebooks with full analysis
 ├── requirements.txt         # Required libraries
 └── README.md                # Project documentation
-## 🚀 How to Use the Code
+
+# 🚀 How to Use the Code
+
 1. Clone the Repository
 git clone https://github.com/yourusername/flipkart-data-analytics.git
 cd flipkart-data-analytics
+
 2. Install Dependencies
 Make sure you have Python installed, then run:
 pip install -r requirements.txt
+
 3. Run web Scraper
 The script will open Flipkart in a browser, search for a product category (like "laptops"), and save the data.
 python src/scraper.py
+
 4. Analyze the Data
   Load the CSV file (laptop_data.csv)
-  Use Jupyter notebook or scripts like analysis.py to visualize data
+  Use Jupyter notebook or scripts like analysis.py to visualize data.
+
 5. Create Dashboard
   Import CSV into Power BI
   Use bar charts, pie charts, filters for insights(eg. price distribution, top-rated brands)
